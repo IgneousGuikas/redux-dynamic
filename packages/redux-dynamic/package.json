@@ -1,12 +1,22 @@
 {
-  "name": "@igneousguikas/redux-dynamic",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "name": "@igneousguikas/redux-dynamic",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --passWithNoTests"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "jest": "^30.2.0",
+        "ts-jest": "^29.4.6",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "immer": "^11.1.3"
+    }
 }
