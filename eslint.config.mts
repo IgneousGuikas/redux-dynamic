@@ -22,7 +22,7 @@ export default [
             ...tseslint.configs.recommended.rules,
             ...prettierConfig.rules,
             "@typescript-eslint/no-unused-vars": "warn",
-            "@typescript-eslint/no-explicit-any": "warn",
+            "@typescript-eslint/no-explicit-any": "off",
             "no-console": "warn",
             semi: ["error", "always"],
             quotes: ["error", "double"],
